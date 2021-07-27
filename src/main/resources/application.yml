@@ -4,4 +4,4 @@ spring:
   application:
     name: healthyeats-eurekaserver
   profiles:
-    active: dev
+    active: prod
