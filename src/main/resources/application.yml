@@ -1,0 +1,7 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:8071
+  application:
+    name: healthyeats-eurekaserver
+  profiles:
+    active: dev
